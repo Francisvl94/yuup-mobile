@@ -1,0 +1,35 @@
+// Wrapper without another div
+@mixin wrapped($width) {
+  padding-right: calc(50% - (#{$width} / 2));
+  padding-left: calc(50% - (#{$width} / 2));
+}
+
+// Wrapper just right side
+@mixin wrapped-right($width) {
+  padding-right: calc(50% - (#{$width} / 2));
+}
+
+// Wrapper just left side
+@mixin wrapped-left($width) {
+  padding-left: calc(50% - (#{$width} / 2));
+}
+
+// Box shadow -X
+@mixin shadow() {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.14);
+}
+
+// Box shadow Y
+@mixin shadow-right() {
+  box-shadow: 4px 0 8px 0 rgba(0,0,0,0.14);
+}
+
+// Button Reseter
+@mixin btn-reset() {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
