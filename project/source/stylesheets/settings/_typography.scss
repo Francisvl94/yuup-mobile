@@ -1,0 +1,65 @@
+p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+// Headlines
+.title-primary {
+  font-weight: 400;
+  color: $text-1;
+  font-size: 24px;
+  letter-spacing: 0;
+
+  &--small {
+    font-size: 16px;
+  }
+
+  &--large {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+
+.title-secondary {
+  font-family: 'BrandonGrotesque';
+  font-weight: 600;
+  color: $text-1;
+  font-size: 24px;
+  letter-spacing: 0;
+
+  &--small {
+    font-size: 12px;
+  }
+
+  &--medium {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  &--large {
+    font-size: 26px;
+    line-height: 16px;
+  }
+}
+
+// Content
+.text {
+  font-weight: 100;
+  font-size: 14px;
+  color: $text-3;
+  letter-spacing: 0;
+
+  &--small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.text-highlight {
+  font-family: 'BrandonGrotesque';
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
